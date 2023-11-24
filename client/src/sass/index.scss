@@ -1,0 +1,50 @@
+// Icons
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+
+@import '../../node_modules/bootstrap/scss/_functions';
+@import '../../node_modules/bootstrap/scss/_variables';
+
+// custom theme colors
+$custom-theme-colors: (
+"altprimary": #0D503C,
+"altsecondary": #198754,
+"altsuccess":#008011,
+"altinfo":#087990,
+"altwarning":#CA6510,
+"altdanger":#B02A37,
+);
+
+// merge the maps to add new theme colors
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import '../sass/mobile/phone.scss';
+
+//CSS 
+.card-body{
+    background: $yellow-300;
+}
+
+
+.card-header {
+    color: #fff;
+    background-color: #0D503C;
+}
+
+p{
+    color: #fff;
+}
+
+td.isAvailable {
+    color: $green-500
+}
+
+td.isNotAvailable {
+    color: $red-500
+}
+
+
+

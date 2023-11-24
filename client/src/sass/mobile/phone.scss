@@ -1,0 +1,50 @@
+@include media-breakpoint-up(sm){
+  section.addEmployee,
+  section.updateEmployee,
+  section.showEmp,
+  section.register,
+  section.login {
+    width: 75%;
+  }
+}
+  
+@include media-breakpoint-up(md){
+  section.addEmployee,
+  section.updateEmployee,
+  section.showEmp,
+  section.register,
+  section.login {
+    width: 75%;
+  }
+}
+
+@include media-breakpoint-down(lg){
+  section.addEmployee,
+  section.updateEmployee,
+  section.showEmp,
+  section.register,
+  section.login {
+      width: 75%;
+      // display: none;
+  }
+}
+
+@include media-breakpoint-up(lg){
+  section.addEmployee,
+  section.updateEmployee,
+  section.showEmp,
+  section.register,
+  section.login {
+    width: 45%;
+  }
+}
+
+@include media-breakpoint-up(xl){
+  section.addEmployee,
+  section.updateEmployee,
+  section.register,
+  section.login {
+    width: 40%;
+    // display: none;
+  }
+}
